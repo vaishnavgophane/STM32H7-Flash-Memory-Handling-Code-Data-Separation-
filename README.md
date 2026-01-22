@@ -20,17 +20,50 @@ Bank 2 (Sector 127: 0x081FF800) → [User Data: 128KB] → 32B AXI Writes → No
 
 
 **🛠️ Tech Stack**
-![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
-![STM32H7](https://img.shields.io/badge/STM32H7-4298B5?style=flat-square&logo=arm&logoColor=white)
-![HAL](https://img.shields.io/badge/HAL-v1.12-FF6B35?style=flat-square&logo=c&logoColor=white)
+<div style="display: flex; gap: 10px; flex-wrap: wrap; margin: 10px 0;">
+  <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" alt="C" style="transition: all 0.3s ease; filter: drop-shadow(0 2px 8px rgba(0,89,156,0.4));"/>
+  <img src="https://img.shields.io/badge/STM32H7-4298B5?style=flat-square&logo=arm&logoColor=white" alt="STM32H7" style="transition: all 0.3s ease; filter: drop-shadow(0 2px 8px rgba(66,152,181,0.4));"/>
+  <img src="https://img.shields.io/badge/HAL-v1.12-FF6B35?style=flat-square&logo=c&logoColor=white" alt="HAL" style="transition: all 0.3s ease; filter: drop-shadow(0 2px 8px rgba(255,107,53,0.4));"/>
+</div>
 
 **📫 Connect**
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vaishnav-gophane-417686284/)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:mr.vaishnavgophane@gmail.com)
-
-<img src="https://komarev.com/ghpvc/?username=vaishnavgophane&style=flat-square&color=00D4AA" alt="Profile Views" height="20"/>
-
+<div style="display: flex; gap: 15px; flex-wrap: wrap; margin: 20px 0;">
+  <a href="https://www.linkedin.com/in/vaishnav-gophane-417686284/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&label=LinkedIn" 
+         alt="LinkedIn" 
+         style="transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); 
+                filter: drop-shadow(0 4px 12px rgba(0,119,181,0.4));
+                transform: translateY(0);
+                border-radius: 25px;
+                padding: 8px 16px;
+                font-weight: 600;"/>
+  </a>
+  <a href="mailto:mr.vaishnavgophane@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&label=Email" 
+         alt="Gmail" 
+         style="transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+                filter: drop-shadow(0 4px 12px rgba(209,72,54,0.4));
+                transform: translateY(0);
+                border-radius: 25px;
+                padding: 8px 16px;
+                font-weight: 600;"/>
+  </a>
+  <a href="https://github.com/vaishnavgophane" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&label=GitHub" 
+         alt="GitHub" 
+         style="transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+                filter: drop-shadow(0 4px 12px rgba(16,0,0,0.4));
+                transform: translateY(0);
+                border-radius: 25px;
+                padding: 8px 16px;
+                font-weight: 600;"/>
+  </a>
 </div>
+
+<div style="margin-top: 15px;">
+  <img src="https://komarev.com/ghpvc/?username=vaishnavgophane&style=flat-square&color=00D4AA" alt="Profile Views" height="20"/>
+</div>
+
 
 
 ```
