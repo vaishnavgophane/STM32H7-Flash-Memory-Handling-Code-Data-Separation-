@@ -1,12 +1,21 @@
 ## 🧑‍💻 Author
+```mermaid
+flowchart TB
+    A[Vaishnav Gophane]
+    B[Embedded Firmware and IoT Developer]
+    C[Pune India]
 
-**Vaishnav Gophane**  
-Embedded Firmware & IoT Developer
-<br>
-Pune, India.
+    A --> B
+    B --> C
 
-📫 **Connect:** [Gmail]( mr.vaishnavgophane@gmail.com ) • [GitHub](https://github.com/vaishnavgophane) • [LinkedIn](https://www.linkedin.com/in/vaishnav-gophane-417686284/)
+    A --> D[GitHub]
+    A --> E[LinkedIn]
+    A --> F[Gmail]
 
+    click D "https://github.com/vaishnavgophane" "GitHub Profile"
+    click E "https://www.linkedin.com/in/vaishnav-gophane-417686284/" "LinkedIn Profile"
+    click F "mailto:mr.vaishnavgophane@gmail.com" "Send Email"
+```
 ---
 
 # STM32H7 Flash Memory Handling (Code + Data Separation)
@@ -142,27 +151,22 @@ flowchart LR
 
 ```
 
-🚀 Why This Matters (My Contribution)
+## 🚀 Why This Matters (My Contribution)
 
-This project demonstrates professional‑grade memory handling, commonly required in:
+This project demonstrates **professional-grade memory handling**, commonly required in:
 
-Bootloaders
+- **Bootloaders**
+- **OTA update systems**
+- **Configuration storage**
+- **Data logging applications**
 
-OTA update systems
+## 👨‍💻 My Key Contributions
 
-Configuration storage
+- ✔ **Designed safe Flash partitioning strategy**
+- ✔ **Implemented STM32H7-compliant Flash write routines**
+- ✔ **Managed cache and MPU interactions correctly**
+- ✔ **Ensured data persistence across resets and firmware re-flashing**
 
-Data logging applications
-
-My Key Contributions
-
-✔ Designed safe Flash partitioning strategy
-
-✔ Implemented STM32H7‑compliant Flash write routines
-
-✔ Managed cache & MPU interactions correctly
-
-✔ Ensured data persistence across resets & re‑flashing
 
 This reflects real‑world embedded firmware practices, not just a demo.
 
@@ -213,7 +217,7 @@ This reflects **real‑world embedded firmware practices**, not just a demo.
 
 ## 📚 References
 
-* STM32H7 Reference Manual (RM0433)
+* STM32H7 Reference Manual (RM0455)
 * STM32 HAL Flash Programming Guidelines
 
 ---
