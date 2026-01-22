@@ -1,29 +1,40 @@
 ## 🧑‍💻 Author
 
-## 👨‍💻 Repository Owner
-
 <p align="center">
-  <strong>Vaishnav Gophane</strong><br>
-  Embedded Firmware & IoT Engineer<br>
-  <sub>Pune, India</sub>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=6ABEB&center=true&vCenter=true&width=435&lines=Vaishnav+Gophane;Embedded+Firmware+%26+IoT+Developer;STM32+%7C+PIC+%7C+RTOS+%7C+CAN" alt="Typing SVG" />
 </p>
 
-<p align="center">
-  <a href="mailto:mr.vaishnavgophane@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge">
-  </a>
-  <a href="https://github.com/vaishnavgophane">
-    <img src="https://img.shields.io/badge/GitHub-vaishnavgophane-black?style=for-the-badge">
-  </a>
-  <a href="https://www.linkedin.com/in/vaishnav-gophane-417686284/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge">
-  </a>
-</p>
+<div align="center">
+
+**🔭 Currently diving deep into:**
+- STM32 Nucleo-F411RE + DMA + SPI + SD Card data logging
+- Real-time embedded systems & multi-peripheral integration
+- FAT filesystem implementation on bare-metal
+
+**⚡ Quick Stats**
+[![Vaishnav's github stats](https://github-readme-stats.vercel.app/api?username=vaishnavgophane&show_icons=true&theme=radical&hide_border=true)](https://github.com/vaishnavgophane)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vaishnavgophane&layout=compact&theme=radical&hide_border=true)](https://github.com/vaishnavgophane)
+
+</div>
+
+<div align="center">
+  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vaishnav-gophane-417686284/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mr.vaishnavgophane@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vaishnavgophane)
+
+**🛠️ Tech Stack**
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Embedded C](https://img.shields.io/badge/Embedded_C-000000?style=for-the-badge&logo=c&logoColor=white)
+![STM32](https://img.shields.io/badge/STM32-000000?style=for-the-badge&logo=arm&logoColor=white)
+![PIC](https://img.shields.io/badge/PIC-0072BA?style=for-the-badge&logo=microchip&logoColor=white)
+![RTOS](https://img.shields.io/badge/RTOS-00AEEF?style=for-the-badge&logo=freertos&logoColor=white)
+![CAN](https://img.shields.io/badge/CAN-FF6900?style=for-the-badge&logo=can&logoColor=white)
+
+</div>
 
 <p align="center">
-  <em>
-    Designing firmware that respects hardware, memory boundaries, and real-world constraints.
-  </em>
+  <img src="https://komarev.com/ghpvc/?username=vaishnavgophane&style=flat-square&color=blue" alt="github profile views counter badge" />
 </p>
 
 
