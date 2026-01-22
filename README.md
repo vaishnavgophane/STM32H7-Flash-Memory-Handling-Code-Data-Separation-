@@ -1,35 +1,38 @@
 <div align="left">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&pause=1000&color=00D4AA&width=500&lines=Vaishnav+Gophane;🔮+STM32H7+Flash+Engineer;32B+AXI+Data+Persistence;Dual-Bank+Architecture+Master" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&pause=1000&color=00D4AA&width=500&lines=Vaishnav+Gophane;🔮+STM32H7+Flash+Engineer;32B+AXI+Data+Persistence;Dual-Bank+Architecture" alt="Typing SVG" />
 
-<img src="https://github-readme-stats.vercel.app/api?username=vaishnavgophane&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00D4AA&icon_color=FFFFFF&hide=prs,issues,contributors&custom_title=Flash+Memory+Specialist" alt="Stats" width="420" height="220"/>
+<div align="center">
+<img src="https://img.shields.io/badge/STM32H7_Flash-00D4AA?style=for-the-badge&labelColor=1a1a1a&label=Flash%20Memory&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMjAiIGN5PSIyMCIgcj0iMTgiIGZpbGw9IiMwMEQ0QUEiLz4KPGNpcmNsZSBjeD0iMjAiIGN5PSIyMCIgcj0iMTIiIGZpbGw9IiMxQTFBMTkiLz4KPHBhdGggZD0iTTE1IDExTDI1IDExTDE5IDE5WiIgZmlsbD0iI0ZGRiIvPgo8L3N2Zz4K" style="width: 420px; height: 220px; border-radius: 15px; box-shadow: 0 8px 32px rgba(0,212,170,0.3)"/>
 
 **🎯 STM32H7 Flash Memory Expertise**
 
 | Innovation | Implementation | Impact |
 |------------|----------------|--------|
 | **32B AXI Writes** | `FLASH_TYPEPROGRAM_FLASHWORD` | Zero bus errors |
-| **Dual-Bank** | Bank1=Code, Bank2=Data | OTA safe |
-| **Cache Management** | `SCB_DisableDCache()` | Production ready |
+| **Dual-Bank** | Bank1=Code, Bank2=Data | OTA firmware safe |
+| **Cache Coherency** | `SCB_DisableDCache()` | Production reliable |
 
-```mermaid
-graph TD
-    A[Bank 1<br/>Application Code] --> B[Flash Controller]
-    C[Bank 2<br/>Sector 127<br/>User Data] --> B
-    B --> D[32B AXI Programming]
-    D --> E[Non-Volatile Storage]
-    style A fill:#e1f5fe
-    style C fill:#f3e5f5
-🛠️ Tech Stack
-C
-STM32H7
-HAL
+**Flash Memory Architecture**
 
-📫 Connect
-LinkedIn
-Gmail
+Bank 1 (Sectors 0-126) → [Application Code] → Flash Controller
+Bank 2 (Sector 127: 0x081FF800) → [User Data: 128KB] → 32B AXI Writes → Non-Volatile Storage
 
-<img src="https://komarev.com/ghpvc/?username=vaishnavgophane&style=flat-square&color=00D4AA" alt="Profile Views" height="20"/> </div> ```
+
+**🛠️ Tech Stack**
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+![STM32H7](https://img.shields.io/badge/STM32H7-4298B5?style=flat-square&logo=arm&logoColor=white)
+![HAL](https://img.shields.io/badge/HAL-v1.12-FF6B35?style=flat-square&logo=c&logoColor=white)
+
+**📫 Connect**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vaishnav-gophane-417686284/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:mr.vaishnavgophane@gmail.com)
+
+<img src="https://komarev.com/ghpvc/?username=vaishnavgophane&style=flat-square&color=00D4AA" alt="Profile Views" height="20"/>
+
+</div>
+
+
 ```
 # STM32H7 Flash Memory Handling (Code + Data Separation)
 
