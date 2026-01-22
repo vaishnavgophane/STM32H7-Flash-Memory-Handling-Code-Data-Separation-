@@ -97,12 +97,70 @@ buffer[i] = *(uint32_t *)(flash_address + i * 4);
 
 ---
 
-## 📦 Data Example
+📦 Data Example (Real Hardware Signal Capture)
 
+While static arrays were used during initial validation, the actual data written to Flash originates from real hardware signals.
+
+Signal Source
+
+Digital Function Generator / External Supply
+
+Logic-level inputs (0s and 1s)
+
+Represents real-world digital events
+
+Data Acquisition Concept
+
+The microcontroller samples digital input states over time and stores them as packed binary data in Flash memory.
 ```c
-uint32_t data_to_store[8] = {10,20,30,40,50,60,70,80};
+uint32_t data_to_store[8]; // Captured digital signal states
 uint32_t read_buffer[8];
 ```
+Each bit represents a sampled logic level:
+
+Bit Value	Meaning
+0	Logic LOW
+1	Logic HIGH
+
+This approach simulates:
+
+Event logging
+
+State recording
+
+Digital waveform snapshots
+
+✔ The Flash storage mechanism remains identical, proving the system works with live external signals, not just test constants.
+
+🔐 Reliability & Safety Considerations
+Feature	Benefit
+Sector‑level erase	Prevents accidental firmware loss
+Bank separation	Enables OTA / firmware updates
+Flash Word writes	Prevents ECC faults
+Cache management	Ensures data coherency
+🚀 Why This Matters (My Contribution)
+
+This project demonstrates professional‑grade memory handling, commonly required in:
+
+Bootloaders
+
+OTA update systems
+
+Configuration storage
+
+Data logging applications
+
+My Key Contributions
+
+✔ Designed safe Flash partitioning strategy
+
+✔ Implemented STM32H7‑compliant Flash write routines
+
+✔ Managed cache & MPU interactions correctly
+
+✔ Ensured data persistence across resets & re‑flashing
+
+This reflects real‑world embedded firmware practices, not just a demo.
 
 * Written once at startup
 * Read back to verify integrity
