@@ -1,29 +1,36 @@
-# Auther
-<div align="center">
+<div align="left">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=00D4AA&center=true&vCenter=true&width=600&lines=Vaishnav+Gophane;🔮+STM32H7+Flash+Engineer;32B+AXI+Data+Persistence;Dual-Bank+Architecture+Master" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&pause=1000&color=00D4AA&width=500&lines=Vaishnav+Gophane;🔮+STM32H7+Flash+Engineer;32B+AXI+Data+Persistence;Dual-Bank+Architecture+Master" alt="Typing SVG" />
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vaishnavgophane&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00D4AA&icon_color=FFFFFF&hide=stars,prs,issues&custom_title=Flash+Memory+Expertise" alt="Stats Card" width="450"/>
-</div>
+<img src="https://github-readme-stats.vercel.app/api?username=vaishnavgophane&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00D4AA&icon_color=FFFFFF&hide=prs,issues,contributors&custom_title=Flash+Memory+Specialist" alt="Stats" width="420" height="220"/>
 
-**🎯 STM32H7 Flash Memory Mastery**
+**🎯 STM32H7 Flash Memory Expertise**
 
-| **Innovation** | **Code Implementation** | **Technical Impact** |
-|----------------|-------------------------|----------------------|
+| Innovation | Implementation | Impact |
+|------------|----------------|--------|
 | **32B AXI Writes** | `FLASH_TYPEPROGRAM_FLASHWORD` | Zero bus errors |
-| **Dual-Bank** | Bank1=Code, Bank2=Data (0x081FF800) | OTA firmware safe |
-| **Cache Coherency** | `SCB_DisableDCache()` | Production reliability |
+| **Dual-Bank** | Bank1=Code, Bank2=Data | OTA safe |
+| **Cache Management** | `SCB_DisableDCache()` | Production ready |
 
 ```mermaid
 graph TD
-    A[📱 Bank 1<br/>Sectors 0-126<br/>Application Code] --> B[⚡ Flash Controller]
-    C[💾 Bank 2<br/>Sector 127<br/>User Data 128KB] --> B
-    B --> D[🚀 32B AXI Programming]
-    D --> E[✅ Non-Volatile Storage]
-```
----
+    A[Bank 1<br/>Application Code] --> B[Flash Controller]
+    C[Bank 2<br/>Sector 127<br/>User Data] --> B
+    B --> D[32B AXI Programming]
+    D --> E[Non-Volatile Storage]
+    style A fill:#e1f5fe
+    style C fill:#f3e5f5
+🛠️ Tech Stack
+C
+STM32H7
+HAL
 
+📫 Connect
+LinkedIn
+Gmail
+
+<img src="https://komarev.com/ghpvc/?username=vaishnavgophane&style=flat-square&color=00D4AA" alt="Profile Views" height="20"/> </div> ```
+```
 # STM32H7 Flash Memory Handling (Code + Data Separation)
 
 ## 📌 Project Overview
