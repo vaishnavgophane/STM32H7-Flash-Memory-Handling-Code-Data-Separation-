@@ -133,12 +133,13 @@ Digital waveform snapshots
 ✔ The Flash storage mechanism remains identical, proving the system works with live external signals, not just test constants.
 
 🔐 Reliability & Safety Considerations
+```mermaid
 flowchart LR
     A[Sector-level erase] --> A1[Prevents accidental firmware loss]
     B[Bank separation] --> B1[Enables OTA / firmware updates]
     C[Flash Word writes\n(32-byte aligned)] --> C1[Prevents ECC faults]
     D[Cache management\n(I-Cache / D-Cache)] --> D1[Ensures data coherency]
-
+```
 
 🚀 Why This Matters (My Contribution)
 
