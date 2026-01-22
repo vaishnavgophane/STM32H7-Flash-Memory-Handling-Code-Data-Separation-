@@ -1,28 +1,26 @@
+# Auther
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=00D4AA&center=true&vCenter=true&width=600&lines=Vaishnav+Gophane;🔮+STM32H7+Flash+Memory+Engineer;32B+AXI-Aligned+Data+Persistence;Dual-Bank+Code%2FData+Architecture" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=00D4AA&center=true&vCenter=true&width=600&lines=Vaishnav+Gophane;🔮+STM32H7+Flash+Engineer;32B+AXI+Data+Persistence;Dual-Bank+Architecture+Master" alt="Typing SVG" />
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=vaishnavgophane&repo=STM32H7-Flash-DataLogger&theme=dark&border_radius=15&card_width=450">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=vaishnavgophane&repo=STM32H7-Flash-DataLogger&theme=radical&border_radius=15&card_width=450">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=vaishnavgophane&repo=STM32H7-Flash-DataLogger&theme=radical&border_radius=15&card_width=450" alt="Repo Card"/>
-</picture>
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=vaishnavgophane&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00D4AA&icon_color=FFFFFF&hide=stars,prs,issues&custom_title=Flash+Memory+Expertise" alt="Stats Card" width="450"/>
+</div>
 
-**🎯 Core Expertise Demonstrated**
+**🎯 STM32H7 Flash Memory Mastery**
 
-| **Memory Innovation** | **Implementation** | **Impact** |
-|----------------------|-------------------|------------|
-| **32B AXI Alignment** | `FLASH_TYPEPROGRAM_FLASHWORD` | Zero bus errors |
-| **Dual-Bank Strategy** | Bank1=Code, Bank2=Data | OTA ready |
-| **Cache Coherency** | ICache+DCache disable | 100% reliability |
+| **Innovation** | **Code Implementation** | **Technical Impact** |
+|----------------|-------------------------|----------------------|
+| **32B AXI Writes** | `FLASH_TYPEPROGRAM_FLASHWORD` | Zero bus errors |
+| **Dual-Bank** | Bank1=Code, Bank2=Data (0x081FF800) | OTA firmware safe |
+| **Cache Coherency** | `SCB_DisableDCache()` | Production reliability |
 
 ```mermaid
-graph LR
-  A[Bank 1<br/>Sectors 0-126<br/>✓ Application Code] --> B[Flash Controller]
-  C[Bank 2<br/>Sector 127<br/>0x081FF800<br/>✓ User Data] --> B
-  B --> D[32B AXI Writes]
-  D --> E[Non-Volatile<br/>Data Persistence]
-
+graph TD
+    A[📱 Bank 1<br/>Sectors 0-126<br/>Application Code] --> B[⚡ Flash Controller]
+    C[💾 Bank 2<br/>Sector 127<br/>User Data 128KB] --> B
+    B --> D[🚀 32B AXI Programming]
+    D --> E[✅ Non-Volatile Storage]
 ```
 ---
 
