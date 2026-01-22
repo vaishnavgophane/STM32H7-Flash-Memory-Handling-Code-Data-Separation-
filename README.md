@@ -1,18 +1,38 @@
 <div align="left">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&pause=1000&color=00D4AA&width=500&lines=Vaishnav+Gophane;🔮+STM32H7+Flash+Engineer;32B+AXI+Data+Persistence;Dual-Bank+Architecture" alt="Typing SVG" />
+<div align="left">
 
-<div align="center">
-<img src="https://img.shields.io/badge/STM32H7_Flash-00D4AA?style=for-the-badge&labelColor=1a1a1a&label=Flash%20Memory&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMjAiIGN5PSIyMCIgcj0iMTgiIGZpbGw9IiMwMEQ0QUEiLz4KPGNpcmNsZSBjeD0iMjAiIGN5PSIyMCIgcj0iMTIiIGZpbGw9IiMxQTFBMTkiLz4KPHBhdGggZD0iTTE1IDExTDI1IDExTDE5IDE5WiIgZmlsbD0iI0ZGRiIvPgo8L3N2Zz4K" style="width: 420px; height: 220px; border-radius: 15px; box-shadow: 0 8px 32px rgba(0,212,170,0.3)"/>
+# 👨‍💻 Vaishnav Gophane
+**Embedded Firmware Engineer**  
+*Pune, India*
 
-**🎯 STM32H7 Flash Memory Expertise**
+---
 
-| Innovation | Implementation | Impact |
-|------------|----------------|--------|
-| **32B AXI Writes** | `FLASH_TYPEPROGRAM_FLASHWORD` | Zero bus errors |
-| **Dual-Bank** | Bank1=Code, Bank2=Data | OTA firmware safe |
-| **Cache Coherency** | `SCB_DisableDCache()` | Production reliable |
+**Embedded Systems Developer specializing in**  
+**STM32 • PIC • RTOS • CAN • Real-time Systems**
 
+0.3)"/>
+
+**Currently building**  
+🔮 Production-grade firmware for industrial IoT  
+⚡ High-performance data logging systems  
+🚀 Real-time embedded architectures  
+
+---
+
+**🛠️ Core Technologies**
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+![Embedded_C](https://img.shields.io/badge/Embedded_C-000000?style=flat-square&logo=c&logoColor=white)
+![STM32](https://img.shields.io/badge/STM32-000000?style=flat-square&logo=arm&logoColor=white)
+![RTOS](https://img.shields.io/badge/RTOS-00AEEF?style=flat-square&logo=freertos&logoColor=white)
+
+**📫 Get In Touch**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vaishnav-gophane-417686284/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mr.vaishnavgophane@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vaishnavgophane)
+
+---
+*Profile Views: <img src="https://komarev.com/ghpvc/?username=vaishnavgophane&style=flat-square&color=00D4AA" height="20"/>*
 
 
 **📫 Connect**
