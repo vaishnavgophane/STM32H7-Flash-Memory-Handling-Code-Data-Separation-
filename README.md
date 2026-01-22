@@ -136,9 +136,10 @@ Digital waveform snapshots
 ```mermaid
 flowchart LR
     A[Sector-level erase] --> A1[Prevents accidental firmware loss]
-    B[Bank separation] --> B1[Enables OTA / firmware updates]
-    C[Flash Word writes\n(32-byte aligned)] --> C1[Prevents ECC faults]
-    D[Cache management\n(I-Cache / D-Cache)] --> D1[Ensures data coherency]
+    B[Bank separation] --> B1[Enables OTA and firmware updates]
+    C[Flash Word writes 32-byte aligned] --> C1[Prevents ECC faults]
+    D[Cache management I-Cache and D-Cache] --> D1[Ensures data coherency]
+
 ```
 
 🚀 Why This Matters (My Contribution)
