@@ -1,43 +1,29 @@
-## 🧑‍💻 Author
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=6ABEB&center=true&vCenter=true&width=435&lines=Vaishnav+Gophane;Embedded+Firmware+%26+IoT+Developer;STM32+%7C+PIC+%7C+RTOS+%7C+CAN" alt="Typing SVG" />
-</p>
-
 <div align="center">
 
-**🔭 Currently diving deep into:**
-- STM32 Nucleo-F411RE + DMA + SPI + SD Card data logging
-- Real-time embedded systems & multi-peripheral integration
-- FAT filesystem implementation on bare-metal
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=00D4AA&center=true&vCenter=true&width=600&lines=Vaishnav+Gophane;🔮+STM32H7+Flash+Memory+Engineer;32B+AXI-Aligned+Data+Persistence;Dual-Bank+Code%2FData+Architecture" alt="Typing SVG" />
 
-**⚡ Quick Stats**
-[![Vaishnav's github stats](https://github-readme-stats.vercel.app/api?username=vaishnavgophane&show_icons=true&theme=radical&hide_border=true)](https://github.com/vaishnavgophane)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vaishnavgophane&layout=compact&theme=radical&hide_border=true)](https://github.com/vaishnavgophane)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=vaishnavgophane&repo=STM32H7-Flash-DataLogger&theme=dark&border_radius=15&card_width=450">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=vaishnavgophane&repo=STM32H7-Flash-DataLogger&theme=radical&border_radius=15&card_width=450">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=vaishnavgophane&repo=STM32H7-Flash-DataLogger&theme=radical&border_radius=15&card_width=450" alt="Repo Card"/>
+</picture>
 
-</div>
+**🎯 Core Expertise Demonstrated**
 
-<div align="center">
-  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vaishnav-gophane-417686284/)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mr.vaishnavgophane@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vaishnavgophane)
+| **Memory Innovation** | **Implementation** | **Impact** |
+|----------------------|-------------------|------------|
+| **32B AXI Alignment** | `FLASH_TYPEPROGRAM_FLASHWORD` | Zero bus errors |
+| **Dual-Bank Strategy** | Bank1=Code, Bank2=Data | OTA ready |
+| **Cache Coherency** | ICache+DCache disable | 100% reliability |
 
-**🛠️ Tech Stack**
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![Embedded C](https://img.shields.io/badge/Embedded_C-000000?style=for-the-badge&logo=c&logoColor=white)
-![STM32](https://img.shields.io/badge/STM32-000000?style=for-the-badge&logo=arm&logoColor=white)
-![PIC](https://img.shields.io/badge/PIC-0072BA?style=for-the-badge&logo=microchip&logoColor=white)
-![RTOS](https://img.shields.io/badge/RTOS-00AEEF?style=for-the-badge&logo=freertos&logoColor=white)
-![CAN](https://img.shields.io/badge/CAN-FF6900?style=for-the-badge&logo=can&logoColor=white)
+```mermaid
+graph LR
+  A[Bank 1<br/>Sectors 0-126<br/>✓ Application Code] --> B[Flash Controller]
+  C[Bank 2<br/>Sector 127<br/>0x081FF800<br/>✓ User Data] --> B
+  B --> D[32B AXI Writes]
+  D --> E[Non-Volatile<br/>Data Persistence]
 
-</div>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=vaishnavgophane&style=flat-square&color=blue" alt="github profile views counter badge" />
-</p>
-
-
+```
 ---
 
 # STM32H7 Flash Memory Handling (Code + Data Separation)
