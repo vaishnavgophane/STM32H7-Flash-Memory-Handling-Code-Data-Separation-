@@ -13,50 +13,66 @@
 | **Dual-Bank** | Bank1=Code, Bank2=Data | OTA firmware safe |
 | **Cache Coherency** | `SCB_DisableDCache()` | Production reliable |
 
-**Flash Memory Architecture**
 
-Bank 1 (Sectors 0-126) → [Application Code] → Flash Controller
-Bank 2 (Sector 127: 0x081FF800) → [User Data: 128KB] → 32B AXI Writes → Non-Volatile Storage
-
-
-**🛠️ Tech Stack**
-<div style="display: flex; gap: 10px; flex-wrap: wrap; margin: 10px 0;">
-  <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" alt="C" style="transition: all 0.3s ease; filter: drop-shadow(0 2px 8px rgba(0,89,156,0.4));"/>
-  <img src="https://img.shields.io/badge/STM32H7-4298B5?style=flat-square&logo=arm&logoColor=white" alt="STM32H7" style="transition: all 0.3s ease; filter: drop-shadow(0 2px 8px rgba(66,152,181,0.4));"/>
-  <img src="https://img.shields.io/badge/HAL-v1.12-FF6B35?style=flat-square&logo=c&logoColor=white" alt="HAL" style="transition: all 0.3s ease; filter: drop-shadow(0 2px 8px rgba(255,107,53,0.4));"/>
-</div>
 
 **📫 Connect**
-<div style="display: flex; gap: 15px; flex-wrap: wrap; margin: 20px 0;">
-  <a href="https://www.linkedin.com/in/vaishnav-gophane-417686284/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&label=LinkedIn" 
-         alt="LinkedIn" 
-         style="transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); 
-                filter: drop-shadow(0 4px 12px rgba(0,119,181,0.4));
-                transform: translateY(0);
-                border-radius: 25px;
-                padding: 8px 16px;
-                font-weight: 600;"/>
+<div style="display: flex; gap: 12px; flex-wrap: wrap; margin: 20px 0;">
+  <!-- LinkedIn Button -->
+  <a href="https://www.linkedin.com/in/vaishnav-gophane-417686284/" target="_blank" 
+     style="text-decoration: none; display: inline-block;">
+    <div style="background: linear-gradient(145deg, #0077b5, #005a87); 
+                padding: 12px 24px; 
+                border-radius: 50px; 
+                color: white; 
+                font-weight: 600; 
+                font-size: 14px; 
+                font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto; 
+                box-shadow: 0 8px 25px rgba(0,119,181,0.4), 0 2px 8px rgba(0,0,0,0.2);
+                transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+                transform: translateY(0); position: relative; overflow: hidden;">
+      <span style="position: relative; z-index: 2;">💼 LinkedIn</span>
+      <div style="position: absolute; top: 0; left: -100%; width: 100%; height: 100%; 
+                  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+                  transition: left 0.5s;"></div>
+    </div>
   </a>
-  <a href="mailto:mr.vaishnavgophane@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&label=Email" 
-         alt="Gmail" 
-         style="transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-                filter: drop-shadow(0 4px 12px rgba(209,72,54,0.4));
-                transform: translateY(0);
-                border-radius: 25px;
-                padding: 8px 16px;
-                font-weight: 600;"/>
+  
+  <!-- Gmail Button -->
+  <a href="mailto:mr.vaishnavgophane@gmail.com" style="text-decoration: none; display: inline-block;">
+    <div style="background: linear-gradient(145deg, #D14836, #a83226); 
+                padding: 12px 24px; 
+                border-radius: 50px; 
+                color: white; 
+                font-weight: 600; 
+                font-size: 14px; 
+                font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto; 
+                box-shadow: 0 8px 25px rgba(209,72,54,0.4), 0 2px 8px rgba(0,0,0,0.2);
+                transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+                transform: translateY(0); position: relative; overflow: hidden;">
+      <span style="position: relative; z-index: 2;">✉️ Email</span>
+      <div style="position: absolute; top: 0; left: -100%; width: 100%; height: 100%; 
+                  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+                  transition: left 0.5s;"></div>
+    </div>
   </a>
-  <a href="https://github.com/vaishnavgophane" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&label=GitHub" 
-         alt="GitHub" 
-         style="transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-                filter: drop-shadow(0 4px 12px rgba(16,0,0,0.4));
-                transform: translateY(0);
-                border-radius: 25px;
-                padding: 8px 16px;
-                font-weight: 600;"/>
+  
+  <!-- GitHub Button -->
+  <a href="https://github.com/vaishnavgophane" target="_blank" style="text-decoration: none; display: inline-block;">
+    <div style="background: linear-gradient(145deg, #181717, #0d0d0d); 
+                padding: 12px 24px; 
+                border-radius: 50px; 
+                color: white; 
+                font-weight: 600; 
+                font-size: 14px; 
+                font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto; 
+                box-shadow: 0 8px 25px rgba(24,23,23,0.4), 0 2px 8px rgba(0,0,0,0.2);
+                transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+                transform: translateY(0); position: relative; overflow: hidden;">
+      <span style="position: relative; z-index: 2;">🐙 GitHub</span>
+      <div style="position: absolute; top: 0; left: -100%; width: 100%; height: 100%; 
+                  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+                  transition: left 0.5s;"></div>
+    </div>
   </a>
 </div>
 
@@ -65,8 +81,13 @@ Bank 2 (Sector 127: 0x081FF800) → [User Data: 128KB] → 32B AXI Writes → No
 </div>
 
 
+**Flash Memory Architecture**
 
-```
+    Bank 1 (Sectors 0-126) → [Application Code] → Flash Controller
+    Bank 2 (Sector 127: 0x081FF800) → [User Data: 128KB] → 32B AXI Writes → Non-Volatile Storage
+
+---
+
 # STM32H7 Flash Memory Handling (Code + Data Separation)
 
 ## 📌 Project Overview
