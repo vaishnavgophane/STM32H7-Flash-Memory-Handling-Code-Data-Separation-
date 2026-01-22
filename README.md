@@ -1,6 +1,6 @@
 <div align="left">
 
-<div style="animation: fadeInUp 1.2s ease-out; opacity: 0; animation-fill-mode: forwards;">
+<div style="animation: fadeInUp 2s ease-out; opacity: 0; animation-fill-mode: forwards;">
 
 # 👨‍💻 Vaishnav Gophane
 <span style="animation: fadeInUp 1.5s ease-out 0.2s both; display: inline-block; opacity: 0;">**Embedded Firmware Engineer**</span>  
