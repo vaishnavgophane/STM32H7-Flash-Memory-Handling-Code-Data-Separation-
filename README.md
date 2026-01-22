@@ -133,11 +133,13 @@ Digital waveform snapshots
 ✔ The Flash storage mechanism remains identical, proving the system works with live external signals, not just test constants.
 
 🔐 Reliability & Safety Considerations
-Feature	Benefit
-Sector‑level erase	Prevents accidental firmware loss
-Bank separation	Enables OTA / firmware updates
-Flash Word writes	Prevents ECC faults
-Cache management	Ensures data coherency
+flowchart LR
+    A[Sector-level erase] --> A1[Prevents accidental firmware loss]
+    B[Bank separation] --> B1[Enables OTA / firmware updates]
+    C[Flash Word writes\n(32-byte aligned)] --> C1[Prevents ECC faults]
+    D[Cache management\n(I-Cache / D-Cache)] --> D1[Ensures data coherency]
+
+
 🚀 Why This Matters (My Contribution)
 
 This project demonstrates professional‑grade memory handling, commonly required in:
