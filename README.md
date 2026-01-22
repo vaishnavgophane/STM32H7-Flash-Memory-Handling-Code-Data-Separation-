@@ -1,17 +1,19 @@
 <div align="left">
 
-<div align="left">
+<div style="animation: fadeInUp 1.2s ease-out; opacity: 0; animation-fill-mode: forwards;">
 
 # 👨‍💻 Vaishnav Gophane
-**Embedded Firmware Engineer**  
-*Pune, India*
+<span style="animation: fadeInUp 1.5s ease-out 0.2s both; display: inline-block; opacity: 0;">**Embedded Firmware Engineer**</span>  
+<span style="animation: fadeInUp 1.5s ease-out 0.4s both; display: inline-block; opacity: 0;">*Pune, India*</span>
 
 ---
 
-**Embedded Systems Developer specializing in**  
-**STM32 • PIC • RTOS • CAN • Real-time Systems**
+<span style="animation: fadeInUp 1.6s ease-out 0.6s both; opacity: 0;">**Embedded Systems Developer specializing in**</span>  
+<span style="animation: fadeInUp 1.6s ease-out 0.8s both; opacity: 0;">**STM32 • PIC • RTOS • CAN • Real-time Systems**</span>
 
-0.3)"/>
+<div style="animation: fadeInUp 1.8s ease-out 1.0s both; opacity: 0; margin-top: 20px;">
+
+
 
 **Currently building**  
 🔮 Production-grade firmware for industrial IoT  
@@ -25,11 +27,6 @@
 ![Embedded_C](https://img.shields.io/badge/Embedded_C-000000?style=flat-square&logo=c&logoColor=white)
 ![STM32](https://img.shields.io/badge/STM32-000000?style=flat-square&logo=arm&logoColor=white)
 ![RTOS](https://img.shields.io/badge/RTOS-00AEEF?style=flat-square&logo=freertos&logoColor=white)
-
-**📫 Get In Touch**
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vaishnav-gophane-417686284/)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mr.vaishnavgophane@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vaishnavgophane)
 
 ---
 *Profile Views: <img src="https://komarev.com/ghpvc/?username=vaishnavgophane&style=flat-square&color=00D4AA" height="20"/>*
