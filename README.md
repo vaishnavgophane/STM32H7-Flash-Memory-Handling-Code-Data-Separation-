@@ -1,21 +1,32 @@
 ## 🧑‍💻 Author
-```mermaid
-flowchart TB
-    A[Vaishnav Gophane]
-    B[Embedded Firmware and IoT Developer]
-    C[Pune India]
 
-    A --> B
-    B --> C
+## 👨‍💻 Repository Owner
 
-    A --> D[GitHub]
-    A --> E[LinkedIn]
-    A --> F[Gmail]
+<p align="center">
+  <strong>Vaishnav Gophane</strong><br>
+  Embedded Firmware & IoT Engineer<br>
+  <sub>Pune, India</sub>
+</p>
 
-    click D "https://github.com/vaishnavgophane" "GitHub Profile"
-    click E "https://www.linkedin.com/in/vaishnav-gophane-417686284/" "LinkedIn Profile"
-    click F "mailto:mr.vaishnavgophane@gmail.com" "Send Email"
-```
+<p align="center">
+  <a href="mailto:mr.vaishnavgophane@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge">
+  </a>
+  <a href="https://github.com/vaishnavgophane">
+    <img src="https://img.shields.io/badge/GitHub-vaishnavgophane-black?style=for-the-badge">
+  </a>
+  <a href="https://www.linkedin.com/in/vaishnav-gophane-417686284/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge">
+  </a>
+</p>
+
+<p align="center">
+  <em>
+    Designing firmware that respects hardware, memory boundaries, and real-world constraints.
+  </em>
+</p>
+
+
 ---
 
 # STM32H7 Flash Memory Handling (Code + Data Separation)
