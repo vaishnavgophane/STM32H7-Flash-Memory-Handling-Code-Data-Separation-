@@ -16,69 +16,11 @@
 
 
 **📫 Connect**
-<div style="display: flex; gap: 12px; flex-wrap: wrap; margin: 20px 0;">
-  <!-- LinkedIn Button -->
-  <a href="https://www.linkedin.com/in/vaishnav-gophane-417686284/" target="_blank" 
-     style="text-decoration: none; display: inline-block;">
-    <div style="background: linear-gradient(145deg, #0077b5, #005a87); 
-                padding: 12px 24px; 
-                border-radius: 50px; 
-                color: white; 
-                font-weight: 600; 
-                font-size: 14px; 
-                font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto; 
-                box-shadow: 0 8px 25px rgba(0,119,181,0.4), 0 2px 8px rgba(0,0,0,0.2);
-                transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-                transform: translateY(0); position: relative; overflow: hidden;">
-      <span style="position: relative; z-index: 2;">💼 LinkedIn</span>
-      <div style="position: absolute; top: 0; left: -100%; width: 100%; height: 100%; 
-                  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
-                  transition: left 0.5s;"></div>
-    </div>
-  </a>
-  
-  <!-- Gmail Button -->
-  <a href="mailto:mr.vaishnavgophane@gmail.com" style="text-decoration: none; display: inline-block;">
-    <div style="background: linear-gradient(145deg, #D14836, #a83226); 
-                padding: 12px 24px; 
-                border-radius: 50px; 
-                color: white; 
-                font-weight: 600; 
-                font-size: 14px; 
-                font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto; 
-                box-shadow: 0 8px 25px rgba(209,72,54,0.4), 0 2px 8px rgba(0,0,0,0.2);
-                transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-                transform: translateY(0); position: relative; overflow: hidden;">
-      <span style="position: relative; z-index: 2;">✉️ Email</span>
-      <div style="position: absolute; top: 0; left: -100%; width: 100%; height: 100%; 
-                  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
-                  transition: left 0.5s;"></div>
-    </div>
-  </a>
-  
-  <!-- GitHub Button -->
-  <a href="https://github.com/vaishnavgophane" target="_blank" style="text-decoration: none; display: inline-block;">
-    <div style="background: linear-gradient(145deg, #181717, #0d0d0d); 
-                padding: 12px 24px; 
-                border-radius: 50px; 
-                color: white; 
-                font-weight: 600; 
-                font-size: 14px; 
-                font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto; 
-                box-shadow: 0 8px 25px rgba(24,23,23,0.4), 0 2px 8px rgba(0,0,0,0.2);
-                transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-                transform: translateY(0); position: relative; overflow: hidden;">
-      <span style="position: relative; z-index: 2;">🐙 GitHub</span>
-      <div style="position: absolute; top: 0; left: -100%; width: 100%; height: 100%; 
-                  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
-                  transition: left 0.5s;"></div>
-    </div>
-  </a>
-</div>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vaishnav-gophane-417686284/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mr.vaishnavgophane@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vaishnavgophane)
 
-<div style="margin-top: 15px;">
-  <img src="https://komarev.com/ghpvc/?username=vaishnavgophane&style=flat-square&color=00D4AA" alt="Profile Views" height="20"/>
-</div>
+<img src="https://komarev.com/ghpvc/?username=vaishnavgophane&style=flat-square&color=00D4AA" alt="Profile Views" height="20"/>
 
 
 **Flash Memory Architecture**
