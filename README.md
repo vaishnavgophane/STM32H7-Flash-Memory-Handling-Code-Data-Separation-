@@ -21,15 +21,6 @@
 🚀 Real-time embedded architectures  
 
 ---
-
-**🛠️ Core Technologies** :
-
-![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
-![Embedded_C](https://img.shields.io/badge/Embedded_C-000000?style=flat-square&logo=c&logoColor=white)
-![STM32](https://img.shields.io/badge/STM32-000000?style=flat-square&logo=arm&logoColor=white)
-![RTOS](https://img.shields.io/badge/RTOS-00AEEF?style=flat-square&logo=freertos&logoColor=white)
-
----
 *Profile Views: <img src="https://komarev.com/ghpvc/?username=vaishnavgophane&style=flat-square&color=00D4AA" height="20"/>*
 
 
